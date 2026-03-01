@@ -28,7 +28,7 @@ public class ObservadorConcreto implements Observador{
         try {
             escritorBitacora = new BufferedWriter(new FileWriter(id + "_bitacora.txt"));
             escritorBitacora.write("Bitácora del espectador: " + id + "\n");
-            escritorBitacora.write("Personaje favorito: " + personajeFavorito + "\n\n");
+            escritorBitacora.write("Personaje favorito: " + personajeFavorito.getNombre() + "\n\n");
             } catch (IOException e) {
                 System.out.println("Error al crear la bitacora");
             }
