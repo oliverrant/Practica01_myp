@@ -12,7 +12,6 @@ public class CatalogoDittuu implements CatalogoHabilidades {
     /**
      * Devuelve la lista de habilidades disponibles en este catálogo.
      *
-     * @return lista de comportamientos de habilidad
      */
     @Override
     public List<ComportamientoHabilidad> getHabilidades() {
