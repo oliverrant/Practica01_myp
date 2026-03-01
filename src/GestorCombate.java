@@ -15,7 +15,7 @@ public class GestorCombate {
     public String ejecutarRonda() {
         numeroRonda++;
         StringBuilder eventos = new StringBuilder();
-        eventos.append("--- Ronda " + numeroRonda + " ---\n");
+        eventos.append("--- Ronda ").append(numeroRonda).append(" ---\n");
         
         for (Personaje p : participantes) {
             if (p.estaVivo() && random.nextInt(100) < 30) {
