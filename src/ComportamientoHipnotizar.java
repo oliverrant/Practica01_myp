@@ -22,7 +22,7 @@ public class ComportamientoHipnotizar implements ComportamientoHabilidad {
      */
     @Override
     public String atacar(String nombreAtacante, String nombreObjetivo){
-        return nombreAtacante + " hipnotiza con serpientes a " + nombreObjetivo;
+        return nombreAtacante + " trata de hipnotizar a  " + nombreObjetivo + " para que se cambie Movistar";
     }
 
     /**
@@ -33,7 +33,7 @@ public class ComportamientoHipnotizar implements ComportamientoHabilidad {
      */
     @Override
     public String defender(String nombrePersonaje){
-        return nombrePersonaje + " parpadea muchas veces";
+        return nombrePersonaje + " se hipnotiza a sí mismo para creer que no ha sufrido daño ";
     }
     
     /**
@@ -53,6 +53,6 @@ public class ComportamientoHipnotizar implements ComportamientoHabilidad {
      */
     @Override
     public int getDefensa(){
-        return 0;
+        return 2;
     }
 }

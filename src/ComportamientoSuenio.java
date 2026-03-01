@@ -33,7 +33,7 @@ public class ComportamientoSuenio implements ComportamientoHabilidad{
      */
     @Override
     public String defender(String nombrePersonaje){
-        return nombrePersonaje + " se duerme un ratito";
+        return nombrePersonaje + " se duerme un ratito para ignorar el ataque ";
     }
     
     /**
@@ -53,6 +53,6 @@ public class ComportamientoSuenio implements ComportamientoHabilidad{
      */
     @Override
     public int getDefensa(){
-        return 0;
+        return 3;
     }
 }

@@ -66,12 +66,18 @@ public class GestorCombate {
      *
      */
     private String ejecutarAtaque(Personaje atacante, Personaje objetivo) {
-        int danioFinal = Math.max(0, atacante.getComportamiento().getDanio() - objetivo.getComportamiento().getDefensa());
+        int danio = atacante.getComportamiento().getDanio() - objetivo.getComportamiento().getDefensa();
+        int danioFinal;
+        if (danio > 0) {
+            danioFinal = danio;
+        } else {
+            danioFinal = 0;
+        }
         objetivo.recibirDanio(danioFinal);
 
         return atacante.atacar(objetivo.getNombre()) + "\n"
              + objetivo.defender() + "\n"
-             + objetivo.getNombre() + " recibe " + danioFinal + " puntos de daño. "
+            + objetivo.getNombre() + " recibe " + danioFinal + " puntos de daño. "
              + "Le quedan " + objetivo.getPuntosVida() + " puntos de vida.\n";
     }
 

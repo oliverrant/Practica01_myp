@@ -32,7 +32,7 @@ public class ComportamientoBomba implements ComportamientoHabilidad{
      */
     @Override
     public String defender(String nombrePersonaje){
-        return nombrePersonaje + " abre su paraguas como escudo";
+        return nombrePersonaje + " se esconde detrás de una bomba ";
     }
 
     /**
@@ -42,7 +42,7 @@ public class ComportamientoBomba implements ComportamientoHabilidad{
      */
     @Override
     public int getDanio(){
-        return 2;
+        return 6;
     }
 
     /**
@@ -52,6 +52,6 @@ public class ComportamientoBomba implements ComportamientoHabilidad{
      */
     @Override
     public int getDefensa(){
-        return 10;
+        return 4;
     }
 }

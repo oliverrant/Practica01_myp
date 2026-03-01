@@ -22,7 +22,7 @@ public class ComportamientoElectrico implements ComportamientoHabilidad {
      */
     @Override
     public String atacar(String nombreAtacante, String nombreObjetivo){
-        return nombreAtacante + " lanza rayos electricos a " + nombreObjetivo;
+        return nombreAtacante + " le corta la luz a " + nombreObjetivo;
     }
 
     /**
@@ -33,7 +33,7 @@ public class ComportamientoElectrico implements ComportamientoHabilidad {
      */
     @Override
     public String defender(String nombrePersonaje){
-        return nombrePersonaje + " se hace electrocutante a todo aquel que vea";
+        return nombrePersonaje + " crea un campo de fuerza de electricidad estática ";
     }
     
     /**

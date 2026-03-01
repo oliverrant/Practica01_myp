@@ -61,7 +61,7 @@ public class ObservadorConcreto implements Observador{
             if (nombreGanador.equals(personajeFavorito.getNombre())) {
                 escritorBitacora.write("\n¡Tu personaje favorito " + personajeFavorito.getNombre() + " gano el combate!");
             } else {
-                escritorBitacora.write("\nTu personaje favorito " + personajeFavorito.getNombre()+ " perdio el combate." + nombreGanador + " gano el combate.");
+                escritorBitacora.write("\nTu personaje favorito " + personajeFavorito.getNombre()+ " perdio el combate. " + nombreGanador + " gano el combate.");
             }
             escritorBitacora.close();
         } catch (IOException e) {

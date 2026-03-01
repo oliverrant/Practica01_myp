@@ -22,7 +22,7 @@ public class ComportamientoCuchillo implements ComportamientoHabilidad  {
      */
     @Override
     public String atacar(String nombreAtacante, String nombreObjetivo){
-        return nombreAtacante + " le lanza varios cuchillos, uno tras otro, a " + nombreObjetivo;
+        return nombreAtacante + " llama a sus amigos de Ecatepec para lanzarle navajas a " + nombreObjetivo;
     }
 
     /**
@@ -33,7 +33,7 @@ public class ComportamientoCuchillo implements ComportamientoHabilidad  {
      */
     @Override
     public String defender(String nombrePersonaje){
-        return nombrePersonaje + " los esquiva";
+        return nombrePersonaje + " deflecta parte del daño con una navaja ";
     }
     
     /**

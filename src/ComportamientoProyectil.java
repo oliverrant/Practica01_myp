@@ -22,7 +22,7 @@ public class ComportamientoProyectil implements ComportamientoHabilidad {
 
     @Override
     public String atacar(String nombreAtacante, String nombreObjetivo){
-        return nombreAtacante + " le lanza un proyectil (grande) a " + nombreObjetivo;
+        return nombreAtacante + " le lanza un proyectil a " + nombreObjetivo;
     }
 
     /**
@@ -33,7 +33,7 @@ public class ComportamientoProyectil implements ComportamientoHabilidad {
      */
     @Override
     public String defender(String nombrePersonaje){
-        return nombrePersonaje + " hace malabares con proyectiles (chiquitos)";
+        return nombrePersonaje + " se esconde detrás de un proyectil ";
     }
     
     /**

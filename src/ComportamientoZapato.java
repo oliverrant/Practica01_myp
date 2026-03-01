@@ -33,7 +33,7 @@ public class ComportamientoZapato implements ComportamientoHabilidad{
      */
     @Override
     public String defender(String nombrePersonaje){
-        return nombrePersonaje + " se cubre con su zapato";
+        return nombrePersonaje + " se cubre con su zapato ";
     }
     
     /**
@@ -53,6 +53,6 @@ public class ComportamientoZapato implements ComportamientoHabilidad{
      */
     @Override
     public int getDefensa(){
-        return 5;
+        return 7;
     }
 }

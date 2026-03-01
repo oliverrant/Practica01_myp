@@ -22,7 +22,7 @@ public class ComportamientoBruja implements ComportamientoHabilidad{
      */
     @Override
     public String atacar(String nombreAtacante, String nombreObjetivo){
-        return nombreAtacante + " le lanza un hechizo a " + nombreObjetivo + " y lo convierte en una rana";
+        return nombreAtacante + " le lanza un Sectumsempra a " + nombreObjetivo;
     }
 
     /**
@@ -33,7 +33,7 @@ public class ComportamientoBruja implements ComportamientoHabilidad{
      */
     @Override
     public String defender(String nombrePersonaje){
-        return nombrePersonaje + " se come una hierba magica que lo hace inmune a todo";
+        return nombrePersonaje + " se toma una posión que mitiga el daño ";
     }
     
     /**
@@ -43,7 +43,7 @@ public class ComportamientoBruja implements ComportamientoHabilidad{
      */
     @Override
     public int getDanio(){
-        return 0;
+        return 8;
     }
 
     /**
@@ -53,6 +53,6 @@ public class ComportamientoBruja implements ComportamientoHabilidad{
      */
     @Override
     public int getDefensa(){
-        return 0;
+        return 6;
     }
 }

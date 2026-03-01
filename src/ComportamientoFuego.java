@@ -33,7 +33,7 @@ public class ComportamientoFuego implements ComportamientoHabilidad {
      */
     @Override
     public String defender(String nombrePersonaje){
-        return nombrePersonaje + " crea un escudo impenetrable con su mugre de no bañarse hace 99 años";
+        return nombrePersonaje + " crea un escudo de fuego ";
     }
     
     /**
