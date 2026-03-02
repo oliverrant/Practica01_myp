@@ -20,7 +20,7 @@ ConfiguracionCombate se creó para encapsular la creación de personajes y obser
 
 Un único objeto Random pasado como parámetro en toda la Práctica, con este podemos garantizar tener casos de prueba reproducibles, pues mediante el uso de tres semillas controlamos la aleatoreidad. Y bastaría con la eliminación de estas tres para tener una infinidad de combates diferentes.
 
-Para compilar haga:
+Para compilar, desde la carpeta Practica01_FuncionaEnMiMaquina haga:
 
 ```javac -d bin src/*.java```
 
