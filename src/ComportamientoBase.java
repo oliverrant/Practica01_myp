@@ -20,6 +20,14 @@ public class ComportamientoBase implements ComportamientoHabilidad{
         return nombre;
     }
 
+    /**
+     * Ejecuta un ataque básico desde el atacante hacia el objetivo.
+     *
+     * @param nombreAtacante nombre del personaje que realiza el ataque.
+     * @param nombreObjetivo nombre del personaje que recibe el ataque.
+     * @return el mensaje que nos dice que el atacante lanza un ataque 
+     * básico al objetivo.
+     */
     @Override
     public String atacar(String nombreAtacante, String nombreObjetivo) {
         return nombreAtacante + " lanza un ataque básico a " + nombreObjetivo;

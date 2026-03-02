@@ -3,7 +3,6 @@ import java.util.Random;
 /**
  * Clase principal que sirve como punto de entrada de la simulación de combate.
  *
-
  */
 public class Main {
 

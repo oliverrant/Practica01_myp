@@ -1,11 +1,11 @@
+import java.util.List;
+
 /**
  * Implementación del catálogo de habilidades para Dittuu.
  * 
  * Proporciona la lista de habilidades disponibles
  * que pueden ser utilizadas por los personajes.
  */
-
-import java.util.List;
 
 public class CatalogoDittuu implements CatalogoHabilidades {
    
